@@ -1,18 +1,20 @@
 import React, { FC } from "react";
 import ReactLogo from "../../public/assets/react-navbar.svg";
-import SunIcon from "../../public/assets/icons/sun.svg";
-import './Navigation.css';
+import { UilSun, UilReact } from '@iconscout/react-unicons';
+import '../../public/fonts.css';
 
 const Navigation: FC = () => {
     return (
-        <nav>
-            <div className="container flex flex-wrap justify-between items-center mx-auto">
-                <a href="#" className="flex items-center space-x-4">
-                    <img src={ReactLogo} alt="React Logo" />
-                    <span className="text-logo">REACT TODO</span>
+        <nav className="flex justify-center mx-20 my-10">
+            <div className="flex-auto">
+                <a href="#" className="flex item-center space-x-2">
+                    <UilReact size="50" color="#61DAFB" />
+                    <span className="font-sans text-4xl font-medium">REACT TODO</span>
                 </a>
-                {/* TODO: Add toggle dark mode */}
             </div>
+            <button className="border-4 rounded-full border-dark-yellow p-2">
+                <UilSun size="40" color="#FFAC33" />
+            </button>
         </nav>
     )
 }
