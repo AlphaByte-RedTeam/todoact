@@ -7,6 +7,9 @@ module.exports = {
   ],
   theme: {
     extend: {},
+    colors: {
+      'dark-yellow': '#FFAC33'
+    },
     fontFamily: {
       'sans': ['Exo\\ 2']
     },
