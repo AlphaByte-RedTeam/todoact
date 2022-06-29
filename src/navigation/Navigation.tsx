@@ -12,7 +12,8 @@ const Navigation: FC = () => {
                     <span className="font-sans text-4xl font-medium">REACT TODO</span>
                 </a>
             </div>
-            <button className="border-4 rounded-full border-dark-yellow p-2">
+            {/* TODO: Make dark mode */}
+            <button className="border-4 rounded-xl border-dark-yellow p-2">
                 <UilSun size="40" color="#FFAC33" />
             </button>
         </nav>
