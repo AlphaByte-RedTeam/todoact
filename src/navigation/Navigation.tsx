@@ -5,9 +5,9 @@ import '../../public/fonts.css';
 
 const Navigation: FC = () => {
     return (
-        <nav className="flex justify-center mx-20 my-10">
+        <nav className="container flex justify-center mx-auto my-10">
             <div className="flex-auto">
-                <a href="#" className="flex item-center space-x-2">
+                <a href="#" className="inline-flex item-center space-x-1">
                     <UilReact size="50" color="#61DAFB" />
                     <span className="font-sans text-4xl font-medium">REACT TODO</span>
                 </a>
