@@ -23,13 +23,13 @@ const Input: FC<Props> = ({ name, value, setValue }) => {
         <div className="flex md:flex-1">
             <input
                 type="text"
-                className={`outline-none w-96 rounded-lg`}
+                className={`font-roboto-mono outline-none w-96 rounded-lg`}
                 placeholder="What you want todo..."
                 name={name}
                 value={value}
                 onChange={handleInput}
             />
-            <button className="bg-[#0EA5E9] rounded-lg mx-4 px-4" onSubmit={handleSubmit}>
+            <button className="bg-[#0EA5E9] rounded-lg mx-4 px-4 font-nunito text-white" onSubmit={handleSubmit}>
                 Submit
             </button>
         </div>
