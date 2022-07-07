@@ -15,7 +15,10 @@ const TodoList: FC<Props> = ({ todos, setTodos }) => {
             todos.map((todo, index) => (index === updatedIndex ? updatedTodo : todo))
         )
     }
-    // TODO: add removeTodo function
+    
+    const removeTodo = (index: number) => () => {
+        setTodos((prevState) => prevState.splice(index, 1))
+    }
     // TODO: add displayTodo function
     return (
         // TODO: displays here
