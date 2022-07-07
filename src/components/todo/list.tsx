@@ -8,7 +8,13 @@ type Props = {
 }
 
 const TodoList: FC<Props> = ({ todos, setTodos }) => {
-    // TODO: add updateTodo function
+    const updateTodo = (updatedIndex: number) => (taskName: string) => {
+        const updatedTodo: Todo = { taskName }
+        setTodos(
+            // Map the todos array
+            todos.map((todo, index) => (index === updatedIndex ? updatedTodo : todo))
+        )
+    }
     // TODO: add removeTodo function
     // TODO: add displayTodo function
     return (
