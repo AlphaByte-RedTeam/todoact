@@ -21,6 +21,7 @@ const TodoItem: FC<Props> = ({ todo, editTodo, removeTodo }) => {
     }
 
     return (
+        // TODO: displays here
         <>
         </>
     )
