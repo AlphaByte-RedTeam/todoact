@@ -8,7 +8,11 @@ type Props = {
 }
 
 const TodoList: FC<Props> = ({ todos, setTodos }) => {
+    // TODO: add updateTodo function
+    // TODO: add removeTodo function
+    // TODO: add displayTodo function
     return (
+        // TODO: displays here
         <>
         </>
     )
