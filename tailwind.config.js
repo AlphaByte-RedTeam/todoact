@@ -11,7 +11,9 @@ module.exports = {
       'dark-yellow': '#FFAC33'
     },
     fontFamily: {
-      'sans': ['Exo\\ 2']
+      'sans': ['Exo\\ 2'],
+      'roboto-mono': ['Roboto\\ Mono'],
+      'nunito': ['Nunito']
     },
     fontSize: {
       '3xl': '1.875rem',
